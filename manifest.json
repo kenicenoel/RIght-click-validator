@@ -1,0 +1,28 @@
+{
+	"web_accessible_resources": ["icon2.png", "icon.png"], 
+	"description": "Right click on any webpage to validate the HTML using the W3 HTML Validator service.", 
+	"icons": 
+		{
+			"128": "icon.png"
+		}, 
+	"manifest_version": 2, 
+	"update_url": "https://extension-updates.opera.com/api/omaha/update/", 
+	"old_id": "https://addons.opera.com/extensions/details/right-click-validator/", 
+	"version": "1.5", 
+	"background": 
+		{
+			"page": "index.html"
+		}, 
+	"permissions": 
+		[
+			"https://*/*", 
+			"contextMenus", 
+			"http://*/*"
+		], 
+	"developer": 
+		{
+			"name": "Kenice Noel"
+		}, 
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'unsafe-eval';", 
+	"name": "Right Click Validator"
+	}
